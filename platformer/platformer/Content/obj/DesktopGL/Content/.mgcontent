@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/background_0.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/bird.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/bird-Sheet.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/cup.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/hurt.wav</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/jumpCount.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/JumpExplode.wav</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/level_0set.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/level_1set.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/menu.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/onePixel.png</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/pixelart.spritefont</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/sng.mp3</File>
+    <File>C:/Users/valer/Documents/MonogameProjects/platformer/platformer/Content/spikes.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

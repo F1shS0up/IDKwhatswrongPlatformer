@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>platformer</id>
+    <version>1.0.0</version>
+    <authors>platformer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MonoGame.Content.Builder.Task" version="3.8.0.1641" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Extended" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Extended.Content.Pipeline" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.0.1641" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/background_0.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/bird-Sheet.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/bird.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/cup.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/hurt.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/jumpCount.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/JumpExplode.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_0set.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_1map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_1set.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Level_2map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_3map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_4map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_5map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/level_6map.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/mapTestUwU.tmx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/menu.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/onePixel.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/pixelart.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/sng.ogg" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/sng.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/spikes.xnb" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\bin\Debug\netcoreapp3.1\platformer.runtimeconfig.json" target="lib\netcoreapp3.1\platformer.runtimeconfig.json" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\bin\Debug\netcoreapp3.1\platformer.dll" target="lib\netcoreapp3.1\platformer.dll" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\background_0.xnb" target="content\Content\bin\DesktopGL\Content\background_0.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\background_0.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\background_0.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\bird-Sheet.xnb" target="content\Content\bin\DesktopGL\Content\bird-Sheet.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\bird-Sheet.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\bird-Sheet.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\bird.xnb" target="content\Content\bin\DesktopGL\Content\bird.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\bird.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\bird.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\cup.xnb" target="content\Content\bin\DesktopGL\Content\cup.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\cup.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\cup.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\hurt.xnb" target="content\Content\bin\DesktopGL\Content\hurt.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\hurt.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\hurt.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\jumpCount.xnb" target="content\Content\bin\DesktopGL\Content\jumpCount.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\jumpCount.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\jumpCount.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\JumpExplode.xnb" target="content\Content\bin\DesktopGL\Content\JumpExplode.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\JumpExplode.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\JumpExplode.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_0set.xnb" target="content\Content\bin\DesktopGL\Content\level_0set.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_0set.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_0set.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_1map.tmx" target="content\Content\bin\DesktopGL\Content\level_1map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_1map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_1map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_1set.xnb" target="content\Content\bin\DesktopGL\Content\level_1set.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_1set.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_1set.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\Level_2map.tmx" target="content\Content\bin\DesktopGL\Content\Level_2map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\Level_2map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Level_2map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_3map.tmx" target="content\Content\bin\DesktopGL\Content\level_3map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_3map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_3map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_4map.tmx" target="content\Content\bin\DesktopGL\Content\level_4map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_4map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_4map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_5map.tmx" target="content\Content\bin\DesktopGL\Content\level_5map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_5map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_5map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_6map.tmx" target="content\Content\bin\DesktopGL\Content\level_6map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\level_6map.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\level_6map.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\mapTestUwU.tmx" target="content\Content\bin\DesktopGL\Content\mapTestUwU.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\mapTestUwU.tmx" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\mapTestUwU.tmx" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\menu.xnb" target="content\Content\bin\DesktopGL\Content\menu.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\menu.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\menu.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\onePixel.xnb" target="content\Content\bin\DesktopGL\Content\onePixel.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\onePixel.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\onePixel.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\pixelart.xnb" target="content\Content\bin\DesktopGL\Content\pixelart.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\pixelart.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\pixelart.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\sng.ogg" target="content\Content\bin\DesktopGL\Content\sng.ogg" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\sng.ogg" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\sng.ogg" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\sng.xnb" target="content\Content\bin\DesktopGL\Content\sng.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\sng.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\sng.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\spikes.xnb" target="content\Content\bin\DesktopGL\Content\spikes.xnb" />
+    <file src="C:\Users\valer\Documents\MonogameProjects\platformer\platformer\Content\bin\DesktopGL\Content\spikes.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\spikes.xnb" />
+  </files>
+</package>

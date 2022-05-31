@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="45">
+ <tileset firstgid="1" source="../biom2.tsx"/>
+ <layer id="1" name="Vrstva dlaždic 1" width="20" height="12">
+  <data encoding="csv">
+0,0,0,0,9,10,11,11,11,11,12,7,10,11,11,11,11,11,11,11,
+0,0,0,0,9,10,11,11,11,11,12,7,10,11,11,11,11,11,11,11,
+0,0,0,0,9,16,17,17,17,17,18,7,16,17,17,17,17,17,17,17,
+0,0,0,0,0,0,0,2,2,0,0,0,0,2,2,2,2,2,2,2,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,5,6,7,0,4,6,20,20,4,6,20,20,20,0,0,0,0,0,0,
+10,11,12,7,0,10,34,5,5,36,12,0,0,0,0,0,0,0,0,0,
+10,11,12,7,0,16,17,17,17,17,18,0,0,0,0,0,0,0,14,14,
+10,11,12,7,0,2,0,0,0,0,2,0,0,0,9,4,5,5,5,5,
+10,11,12,7,0,0,0,0,0,0,0,0,0,0,9,10,11,11,11,11,
+10,11,12,7,9,4,5,5,5,5,6,7,0,0,9,10,11,11,11,11,
+10,11,12,7,9,10,11,11,11,11,12,7,0,0,9,10,11,11,11,11
+</data>
+ </layer>
+ <objectgroup id="2" name="Entry">
+  <object id="30" x="0" y="48" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="3" name="cup">
+  <object id="29" x="112" y="144" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="4" name="collision">
+  <object id="1" x="0" y="80" width="16" height="112"/>
+  <object id="2" x="16" y="80" width="16" height="16"/>
+  <object id="3" x="32" y="80" width="16" height="112"/>
+  <object id="5" x="80" y="160" width="16" height="32"/>
+  <object id="6" x="96" y="160" width="64" height="16"/>
+  <object id="7" x="160" y="160" width="16" height="32"/>
+  <object id="8" x="160" y="80" width="16" height="48"/>
+  <object id="9" x="144" y="80" width="16" height="16"/>
+  <object id="16" x="96" y="80" width="16" height="16"/>
+  <object id="17" x="80" y="80" width="16" height="48"/>
+  <object id="18" x="96" y="112" width="64" height="16"/>
+  <object id="19" x="112" y="80" width="32" height="16"/>
+  <object id="20" x="176" y="80" width="48" height="16"/>
+  <object id="21" x="80" y="0" width="16" height="48"/>
+  <object id="22" x="96" y="32" width="64" height="16"/>
+  <object id="23" x="160" y="0" width="16" height="48"/>
+  <object id="24" x="192" y="0" width="16" height="48"/>
+  <object id="25" x="208" y="32" width="112" height="16"/>
+  <object id="26" x="240" y="128" width="80" height="16"/>
+  <object id="27" x="240" y="144" width="16" height="48"/>
+ </objectgroup>
+ <objectgroup id="5" name="kill">
+  <object id="31" x="78.25" y="0.625" width="1.5" height="47"/>
+  <object id="34" x="112.88" y="48.125" width="30.5" height="1.625"/>
+  <object id="35" x="175.875" y="-0.375" width="1.375" height="48.125"/>
+  <object id="36" x="208.25" y="48.375" width="111.375" height="1.375"/>
+  <object id="37" x="287.875" y="126.25" width="32.125" height="2"/>
+  <object id="39" x="238.625" y="127.875" width="1" height="64"/>
+  <object id="40" x="176.125" y="159.75" width="1.125" height="32.125"/>
+  <object id="41" x="160.25" y="128.375" width="15.5" height="0.875"/>
+  <object id="42" x="80.25" y="128.125" width="15.375" height="1.125"/>
+  <object id="43" x="79.125" y="160.375" width="1.125" height="31.375"/>
+  <object id="44" x="48" y="80" width="1.75" height="111.5"/>
+ </objectgroup>
+</map>
